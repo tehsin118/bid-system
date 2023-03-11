@@ -133,24 +133,14 @@ function Footer() {
             </div>
             <div className="col-md-4 col-12  ">
               <div className="social-logos">
-                <a
-                  href="https://www.nftexplorer.app/collection/N5fRUUXVA1IS"
-                  target="_blank"
-                >
+                <a href="" target="_blank">
                   <img src="\assets\images\social1.svg" alt="" />
                 </a>
 
-                <a
-                  href="https://www.nftexplorer.app/collection/lighthouse-keepers"
-                  target="_blank"
-                >
-                  <img src="\assets\images\social1.svg" alt="" />
-                </a>
-
-                <a href="https://twitter.com/lkinc_algo" target="_blank">
+                <a href="" target="_blank">
                   <img src="\assets\images\twitter.svg" alt="" />
                 </a>
-                <a href="https://discord.gg/znhadrD8hS" target="_blank">
+                <a href="" target="_blank">
                   <img src="\assets\images\discord.svg" alt="" />
                 </a>
               </div>

@@ -133,7 +133,7 @@ function Keepernft() {
 
           <div className="viewall">
             <div className="nft-buy">
-              <a href="#">bid now</a>
+              <a href="#">View More</a>
             </div>
           </div>
         </div>
