@@ -1,0 +1,108 @@
+.nft-card {
+  background-color: var(--heaven);
+  /* box-shadow: 0px 3.85306px 3.85306px rgba(0, 0, 0, 0.25); */
+  border-radius: 10.5959px;
+  width: 18rem;
+}
+.nft-card .nft-card-body {
+  padding: 14px 19px;
+}
+.nft-card .nft-title h5 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.7509px;
+  color: var(--hell);
+}
+
+.nft-card-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9.8px;
+  /* align-items: center; */
+}
+.nft-card-detail .ranking,
+.nft-card-detail .price,
+.nft-card-detail .nft-coin,
+.nft-card-detail .pricing {
+  display: flex;
+  align-items: center;
+}
+.nft-card-detail .ranking h4,
+.nft-card-detail .pricing h4 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5006px;
+  color: var(--hell);
+  margin-right: 5.83px;
+}
+.nft-card-detail .ranking h6,
+.nft-card-detail .pricing h6 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.2005px;
+  color: var(--hell);
+}
+
+.nft-card-detail .nft-coin {
+  margin-left: 13.03px;
+}
+.nft-card-detail .nft-coin img {
+  margin-right: 3.3px;
+}
+
+.nft-card .nft-buy {
+  background: var(--hell);
+  border-radius: 6.35385px;
+  text-align: center;
+  padding: 6px 0;
+  margin-top: 13px;
+  border: 1px solid var(--hell);
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27.2308px;
+  color: var(--heaven);
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.nft-card .nft-buy a {
+  color: var(--heaven);
+}
+
+.nft-card-header {
+  position: relative;
+}
+
+.nft-card-header .favourite {
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
+  background: var(--heaven);
+  border-radius: 50%;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: var(--secondary) !important;
+}
+
+@media (min-width: 1919px) {
+  .nft-card {
+    background-color: var(--heaven);
+    /* box-shadow: 0px 3.85306px 3.85306px rgba(0, 0, 0, 0.25); */
+    border-radius: 10.5959px;
+    width: 23rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .nft-card {
+    background-color: var(--heaven);
+    /* box-shadow: 0px 3.85306px 3.85306px rgba(0, 0, 0, 0.25); */
+    border-radius: 10.5959px;
+    width: 17rem !important;
+  }
+}

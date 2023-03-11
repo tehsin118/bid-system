@@ -1,0 +1,168 @@
+.pastynft-content {
+  padding: 0px 129px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.pastynft-content .section-head h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 44px;
+}
+
+@media (max-width: 600px) {
+  .pastynft-content {
+    padding: 0px 70px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .pastynft-content {
+    padding: 0px 20px;
+    padding-bottom: 50px;
+  }
+  .pastynft-content .my-nfts {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* .slick-prev:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-image: url("../../assets/images/rightarrow.svg");
+} */
+
+@media (min-width: 1919px) {
+  .slick-next:before {
+    content: "";
+    background-image: url("../../assets/images/rightarrow.svg");
+
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1430%;
+    right: 100%;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../assets/images/leftarrow.svg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1430%;
+    left: 7600%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .slick-next:before {
+    content: "";
+    background-image: url("../../assets/images/rightarrow.svg");
+
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1450%;
+    right: 0%;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../assets/images/leftarrow.svg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1450%;
+    left: 5800%;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 1400px) {
+  .slick-next:before {
+    content: "";
+    background-image: url("../../assets/images/rightarrow.svg");
+
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1450%;
+    right: 300%;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../assets/images/leftarrow.svg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -1450%;
+    left: 4900%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .slick-next:before {
+    content: "";
+    background-image: url("../../assets/images/rightarrow.svg");
+
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    right: -300%;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../assets/images/leftarrow.svg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+}
+@media (max-width: 480px) {
+  .slick-next:before {
+    content: "";
+    background-image: url("../../assets/images/rightarrow.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    /* position: absolute;
+    right: 40%; */
+    margin-right: 80px;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../assets/images/leftarrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+
+    /* position: absolute;
+    left: 40%; */
+  }
+}

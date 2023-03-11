@@ -1,0 +1,97 @@
+.keepnft {
+  margin-bottom: 30px;
+  overflow-x: hidden;
+}
+.keepnft .keepnft-content {
+  padding: 108px 129px;
+}
+.keepnft .keepnft-content .section-head h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 44px;
+}
+
+.nft-card-header {
+  position: relative;
+  border-radius: 10.5959px;
+}
+.nft-card-header img {
+  border-radius: 10.5959px 10.5959px 10.5959px 10.5959px;
+}
+.nft-card-header .bid-timeout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgba(24, 23, 23, 0.877);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.nft-card-header .bid-timeout .time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nft-card-header .bid-timeout h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+.nft-card-header .bid-timeout h2 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .keepnft-content {
+    padding: 50px 70px !important;
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .keepnft {
+    padding-top: 50px !important;
+  }
+  .keepnft-content {
+    padding: 0px 20px !important;
+    padding-bottom: 50px;
+  }
+  .keepnft-content .my-nfts {
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1600px) {
+  .customize-arrows .slick-prev {
+    left: 1379px;
+    top: -20px;
+  }
+  .customize-arrows .slick-next {
+    right: 17px;
+    top: -20px;
+  }
+  #physcialitems .slick-prev {
+    left: 1400px;
+    top: -20px;
+  }
+  section#top-sellers .slick-prev {
+    left: 1400px;
+    top: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+}

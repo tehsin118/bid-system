@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #969292;
+}
+:root {
+  --primary: #fd4848;
+  --secondary: #ea3f3f;
+  --ternery: #eca1a1;
+  --heaven: #ffffff;
+  --hell: #000000;
+}
+
+/* Font Families */
+
+/* Bebas */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Century Gothic */
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../src/assets/fonts/Century\ Gothic\ Bold.otf");
+  src: url("../src/assets/fonts/Century\ Gothic.otf");
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.just-center {
+  display: flex;
+  justify-content: center;
+}
+
+.back-img {
+  background-image: url("./assets/images/webbackground.webp");
+  background-size: cover;
+}
+
+/* nft Cards */
+
+.viewall .nft-buy {
+  background: var(--hell);
+  border-radius: 6.35385px;
+  text-align: center;
+  padding: 6px 0;
+  margin-top: 13px;
+  border: 1px solid var(--hell);
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27.2308px;
+  color: var(--heaven);
+  cursor: pointer;
+  transition: all 0.4s linear;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.viewall .nft-buy a {
+  color: #fff;
+}

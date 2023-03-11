@@ -1,0 +1,94 @@
+.ourseller {
+  background: var(--primary);
+  position: relative;
+  overflow-x: hidden;
+}
+.ourseller .seller-content {
+  padding: 85px 0;
+}
+.ourseller .section-head h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52.8205px;
+  line-height: 63px;
+  color: var(--heaven);
+  padding: 20px 62px 20px 135px;
+  background-color: var(--hell);
+  width: fit-content;
+  border-radius: 0px 51.5px 51.5px 0px;
+}
+.ourseller .sellers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourseller .sellers img {
+  margin-right: 50px;
+  max-width: 100%;
+}
+
+@media (max-width: 1537px) {
+  .ourseller .section-head h1 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.8205px;
+    line-height: 63px;
+    color: var(--heaven);
+    padding: 10px 62px 10px 135px;
+    background-color: var(--hell);
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 0px 51.5px 51.5px 0px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .ourseller .section-head h1 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.8205px;
+    line-height: 63px;
+    color: var(--heaven);
+    padding: 5px 40px 5px 50px;
+    background-color: var(--hell);
+    border-radius: 0px 51.5px 51.5px 0px;
+  }
+  .ourseller .sellers img {
+    margin-right: 50px;
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ourseller .seller-content {
+    padding: 70px 0;
+  }
+
+  .ourseller .imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0px;
+  }
+  .ourseller .sellers img {
+    margin-right: 0px;
+  }
+  .ourseller .sellers .row {
+    --bs-gutter-x: 0rem !important;
+  }
+  .ourseller .section-head h1 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 63px;
+    color: var(--heaven);
+    padding: 5px 50px 5px 70px;
+    background-color: var(--hell);
+    border-radius: 0px 51.5px 51.5px 0px;
+  }
+}
